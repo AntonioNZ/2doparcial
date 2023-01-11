@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(104, 128, 2) 15%;
+background: radial-gradient(circle, rgb(104, 128, 2), rgba(0,0,0,1) 100%);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', cursive;
+
+}
+.card{
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 20px black;
+    margin: 50px auto;
+    position: relative;
+    top: 100px;
+}
+.header{
+    width: 100%;
+    height: 120px;
+    border-radius: 30px 30px 0 0;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg width='32' height='64' viewBox='0 0 32 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 28h20V16h-4v8H4V4h28v28h-4V8H8v12h4v-8h12v20H0v-4zm12 8h20v4H16v24H0v-4h12V36zm16 12h-4v12h8v4H20V44h12v12h-4v-8zM0 36h8v20H0v-4h4V40H0v-4z' fill='%23e1ff00' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+img{
+    display: block;
+    height:150px ;
+    width: 150px;
+    background: 
+    linear-gradient(var(--color-bg), var(--color-bg)) padding-box,
+    linear-gradient(to right, rgb(5, 114, 60) 15%, rgba(0,0,0,1) 100%) border-box;
+    border-radius: 50em;
+    border: 4px solid transparent;
+    border-radius: 100%;
+    margin: auto;
+    position: relative;
+    top: 75px;
+}
+.body{
+    text-align: center;
+    position: relative;
+    top: 105px;
+}
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0PX;
+    background: rgb(104, 128, 2);
+    text-align: center;
+    border-top: 5px solid black;
+    display: flex;
+    border-radius: 0 0 30PX 30PX ;
+}
+.dato{
+    display: block;
+    padding: 20px;
+}
+.claro{
+    color: rgb(0, 0, 0);
+    opacity: 0.7;
+    text-shadow: 0 5px 5px black;
+}
+.texto{
+    font-size: 30px;
+    text-shadow: 0 5px 5px gray;
+}
+.numero{
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: 0 5px 5px gray;
+}
+.tipo{
+    font-size: 15px;
+    color: gray;
+}
+hr{
+    margin-top: 150px;
+}
+
+
+
+
+
+
+
+
+
